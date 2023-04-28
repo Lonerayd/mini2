@@ -173,6 +173,7 @@ nav {
     margin-right: 5px;
     display: flex;
     
+    
   }
 
   #search{
@@ -214,7 +215,10 @@ nav {
     color: #ddd;
   }
   
-
+  #licart
+  {
+    transform: translate(0,25%);
+  }
   .content {
     height: 100svh;
     background-color: #D0B59D;
@@ -436,4 +440,9 @@ footer
     width: 100%;
     display: flex;
     justify-content:start;
+}
+.about
+{
+    height: 100svh;
+    background-color: #BAAD9C;
 }
