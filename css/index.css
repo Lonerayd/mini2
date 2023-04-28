@@ -449,4 +449,11 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.about div
+{
+    columns: 3;
+    padding: 20px ;
 }
