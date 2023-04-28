@@ -58,6 +58,10 @@ function sign()
 {
   username.push(document.getElementById("username").value);
   password.push(document.getElementById("password").value);
+  if(username.length>0 && password>0)
+  {window.location.href = "browse.html";}
+  // else
+  // {alert("Please Enter your details.")}
 }
 function validate(){
 var checkuser = document.getElementById("username").value;

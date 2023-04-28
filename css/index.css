@@ -188,9 +188,11 @@ nav {
   
     
     list-style: none;
-    display: block;
+    display: flex;
     padding-right: 10px;
-  
+    justify-content: center;
+    align-items: center;
+    transform: translate(0,20%);
    
   }
   /* .nav-links.change{
@@ -201,6 +203,7 @@ nav {
     display: inline-block;
     margin: 0 10px;
    text-align: center;
+   
   }
   
   .nav-links li a {
@@ -215,10 +218,10 @@ nav {
     color: #ddd;
   }
   
-  #licart
+  /* #licart
   {
     transform: translate(0,25%);
-  }
+  } */
   .content {
     height: 100svh;
     background-color: #D0B59D;
