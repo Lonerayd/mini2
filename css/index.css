@@ -172,7 +172,7 @@ nav {
     background-repeat: no-repeat;
     margin-right: 5px;
     display: flex;
-    background-position-y: 5px;
+    
   }
 
   #search{
@@ -199,6 +199,7 @@ nav {
   .nav-links li {
     display: inline-block;
     margin: 0 10px;
+   text-align: center;
   }
   
   .nav-links li a {
@@ -273,6 +274,8 @@ nav {
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+    margin: auto;
+    /* transform: translate(-50%,0); */
 }
 .quote button:hover
 {
@@ -282,6 +285,10 @@ nav {
 {
     position: relative;
     top: 30%;
+    width: 50%;
+    margin: auto;
+   
+   
 }
 @media  (max-width:768px)
 {
@@ -399,4 +406,8 @@ footer
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
 }
+
